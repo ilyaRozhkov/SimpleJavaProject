@@ -1,0 +1,16 @@
+.btn {
+    margin: 5px;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+}
+
+.btn-x{
+    font-size: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

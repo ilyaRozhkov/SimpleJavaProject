@@ -1,0 +1,83 @@
+.tool-bar {
+    width: 100%;
+    height: 100px;
+}
+
+.buttons-tool-bar{
+    margin-top: 2%;
+}
+
+.btn-tool-bar{
+    background-color: white;
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    margin: 5px;
+    color: black;
+    border: 1px solid #000000;
+}
+
+.btn-tool-bar:hover{
+    border: 1px solid #008000;
+    background-color: #008000;
+    color: white;
+}
+
+.delete:hover{
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+    color: white;
+}
+
+
+.btn-tool-bar:active {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.header-h1 h1 {
+    position: relative;
+    top: 10%;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+.header-h1 h1::before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #000000;
+    bottom: .25rem;
+    left: 50%;
+    width: 30%;
+    transform: translateX(-50%);
+}
+.header-h1 h1::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #000000;
+    bottom: 0;
+    left: 50%;
+    width: 15%;
+    transform: translateX(-50%);
+}
+
+.modal_delete{
+    position: absolute;
+    z-index: 9999;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    min-height: 120px;
+    min-width: 450px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    background: #f8f8f8;
+}
+
+.pSure{
+    margin-top: 1%;
+    text-align: center;
+}
+

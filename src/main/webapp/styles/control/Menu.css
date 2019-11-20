@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+a:active {
+    border-bottom: 1px dashed;
+}
+
+li{
+    list-style-type: none;
+}
+
+.active{
+    color:red;
+    font-weight:bold;
+}

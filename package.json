@@ -1,0 +1,47 @@
+{
+    "name": "antifraud",
+    "version": "1.0.0",
+    "description": "Antifraud",
+    "keywords": [
+        "react-component",
+        "grid",
+        "data",
+        "table",
+        "js"
+    ],
+    "dependencies": {
+        "ag-grid": "^18.1.2",
+        "ag-grid-react": "^18.1.0",
+        "bootstrap": "^4.3.1",
+        "glyphicons": "^0.2.0",
+        "jqwidgets-framework": "^8.2.0",
+        "react": "^16.10.2",
+        "react-bootstrap": "^1.0.0-beta.14",
+        "react-datepicker": "^2.9.6",
+        "react-dom": "^16.10.2",
+        "react-dom-factories": "^1.0.2",
+        "react-dropdown": "^1.6.4",
+        "react-router-dom": "^5.1.2",
+        "rest": "^2.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.2",
+        "@babel/preset-env": "^7.6.2",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/plugin-transform-runtime": "^7.6.2",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "babel-plugin-react-css-modules": "^5.2.6",
+        "browser-sync": "^2.26.7",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "babel-loader": "^8.0.6",
+        "webpack": "4.41.0",
+        "webpack-cli": "^3.3.9",
+        "css-loader": "^3.2.0",
+        "file-loader": "^4.2.0",
+        "url-loader": "^2.2.0",
+        "style-loader": "^1.0.0"
+    },
+    "scripts": {
+        "build": "webpack"
+    }
+}

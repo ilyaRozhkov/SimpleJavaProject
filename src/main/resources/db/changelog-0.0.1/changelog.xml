@@ -1,0 +1,41 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="Recall" author="simple">
+        <sqlFile path="Recall/recall_seq.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="Recall/create_recall.sql" relativeToChangelogFile="true"/>
+        <rollback>
+
+            DROP SEQUENCE RECALL_SEQ;
+            DROP TABLE RECALL;
+
+        </rollback>
+    </changeSet>
+
+    <changeSet id="User" author="simple">
+        <sqlFile path="User/create_user_seq.sql" relativeToChangelogFile="true"/>
+        <sqlFile path="User/create_user.sql" relativeToChangelogFile="true"/>
+
+        <rollback>
+
+            DROP SEQUENCE USER_SEQ;
+            DROP TABLE USER;
+
+        </rollback>
+    </changeSet>
+
+    <changeSet id = "Hotel" author="simple">
+        <sqlFile path = "Hotel/create_hotel_seq.sql" relativeToChangelogFile="true"/>
+        <sqlFile path = "Hotel/create_hotel.sql" relativeToChangelogFile="true"/>
+        <rollback>
+
+            DROP SEQUENCE HOTEL_SEQ;
+            DROP TABLE HOTEL;
+
+        </rollback>
+    </changeSet>
+</databaseChangeLog>

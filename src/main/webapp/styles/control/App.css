@@ -1,0 +1,21 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+
+}
+
+.modal-95w {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    max-width: 100%;
+}
+
+.modal-95w .container {
+    max-width: 100%;
+}
+
+.form-group {
+
+}
